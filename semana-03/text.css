@@ -1,23 +1,48 @@
+*{
+    font-family: 'Roboto';
+}
+header{
+    width: 80%;
+    float: right;
+}
+header{
+    position: relative;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+border-bottom: 3px solid red;
+}
+
+header h1{
+    padding-bottom: 20px;
+}
+
 .h2{
     color:black;
-    font font-family:'Roboto';
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 30px;
+    display: inline-block;
 }
 
-div#icons{
+.icons{
     font-size: 20px;
     margin: left 5px;
     margin-right: 5px;
+    position:absolute;
+    right: 0px;
+    top: 30px;
 
 }
 
+
 nav{
     background-color: grey;
-    margin-left: 5px;
-    width: 288px;
+    width: 20%;
     height: 2737px;
     left: 0px;
     top: 0px;
@@ -28,24 +53,39 @@ nav > input{
     margin-top: 35px;
     margin-left: 14px;
     margin-right: 14px;
-    width: 260px;
+    width: 190px;
     height: 37px;
 
 }
 
-div.sidebar > ul {
+.sidebar, nav{
+    width: 20%;
+    float: left;
+    position:fixed;
+    height: 100%;
+
+}
+
+
+.sidebar > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-left: 16px;
     
   }
-  div.sidebar > ul > li{
+
+  .sidebar > ul > li{
       height: 23px;
       margin-bottom: 20px;
   }
   
-  div.sidebar > h3{
+  .sidebar a{
+      text-decoration: none;
+      color: #000000;
+  }
+
+  .sidebar > h3{
     margin: 0;
     padding: 0;
     margin-left: 16px;
@@ -61,38 +101,309 @@ color: #000000;
 
 
   }
-
-  div.funcionalities{
-    display: inline-block;
-    width: 35%;
+  .second > img{
+      margin-top: -180px;
+      width:525px ;
+      height: 401px;
+      float: right;
   }
 
-  div.funcionalities > h3{
-     top: 50px;
-     left: 150px;
-     position: relative;
-     display: inline-block;
-      }
-  div.funcionalities > i{
-    top: 50px;
-    left: 20px;
-    position: relative;
+  .second, .third{
+      border-bottom: 1px solid red;
+      width: 80%;
+      float: right;
+      padding-bottom: 150px;
+      
+  }
+
+  .second-c{
+      width: 420px;
+      margin-left: 40px;
+      text-align: center;
+margin-top: 100px;
+  }
+
+
+   .second-c h2{
+       padding-bottom: 50px;
+
+      font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+  }
+
+
+
+  .third{
+ position: relative;
+ height: 250px;
+ padding-top: 50px;
+
+
+  }
+
+  
+.third .funcionalities{
+    width: 45%;
+    display: inline-block;
+    margin:10px;
+}
+
+.third .funcionalities i{
+    float: left;
     font-size: 50px;
-    display: inline-block;
 
-  }
-   div.funcionalities > p{
-    top: 25px;
-    left: 170px;
+}
+
+.third .funcionalities h3,.third .funcionalities p{
+    width: 400px;
+margin-left: 50px;
+}
+.third .funcionalities h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+}
+
+.fourth{
     position: relative;
-    display: inline-block;
-    font-size: 80px;
+ height: 500px;
+ padding-top: 50px;
+ float: right;
+ width: 80%;
+ border-bottom: 2px solid red;
+}
+
+.fourth h2 {
+    margin-top: 50px;
+    left: 80px;
+      position:absolute;
+      top: 0%;
+       font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+   .fourth > img{
+       float: right;
+       border-radius: 5px;
+       width: 40%;
+
+       
    }
 
-main{
-    position: absolute;
-width: 1080px;
-height: 2397px;
-left: 318px;
-top: 149px;
+   .fourth > ul {
+    margin-left: 130px;
+    top: 80px; 
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+   }
+   .fourth > ul li{
+       padding-top: 15px;
+   }
+
+   .fourth > button{
+       position: relative;
+      top: 100px;
+      left: 150px;
+       background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    width: 139px;
+    height: 46px;
+    color: #FF5500;
+   }
+
+    .fifth{
+       position: relative;
+       height: 412px;
+       width: 80%;
+       float: right;
+
+
+   }
+
+   .fifth > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 35px;
+    
+    color: #000000;
+    margin: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    
+   }
+
+   .fifth form input{
+       display: inline-block;
+       width: 45%;
+       padding: 3px;
+       margin-top: 10px;
+       margin-left: 7px;
+
+   }
+
+   .fifth form select{
+       width: 92%;
+       margin: 10px;
+       padding: 3px;
+   }
+ 
+   .fifth form textarea{
+       width: 92%;
+       margin: 10px;
+       padding: 3px;
+       height: 210px;
+       resize: none;
+   }
+   
+   .fifth form button{
+       background-color: #FF5500;
+       color: #FFFFFF;
+       border-radius: 6px;
+       padding: 8px 15px;
+        position: relative;
+        left: 30px;
+   }
+
+   .fifth form .btn{
+       background-color: #FFFFFF;
+       color: #FF5500;
+       border: 2px solid #FF5500;
+       border-radius: 6px;
+       margin-left: 20px;
+       padding: 8px 15px;
+
+   }
+   .fifth input, .fifth area, .fifth select{
+       background-color: white;
+       border: 1px solid #AAAAAA;
+       border-radius: 5px;
+       padding: 10px;
+       
+   }
+
+   .sixth{
+      float: right;
+      width: 80%;
+      position: relative;
+      margin-top: 80px;
+      border-top: 2px solid red ;
+      border-bottom: 2px solid red;
+   }
+
+   .main .sixth > h2{
+
+    margin: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 35px;
+    color: #000000;
+
+   }
+
+   .sixth > p{
+
+    position: relative;
+    margin-left: 200px;
+    height: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+   }
+
+
+   .sixth > img{
+
+   width: 440px;
+   float: left;
+   margin-left: 20px;
+
+   }
+ 
+   .seventh{
+
+        float: right;
+        width: 80%;
+
+   }
+
+   .our-services{
+       position: relative;
+       display:inline-block;
+       width: 33%;
+       margin-top: 50px;
+       text-align: center;
+   }
+   
+   .our-services h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #000000;
+    
+   }
+
+   .our-services li{
+       list-style: none;
+
+   }
+
+   .our-services li a{
+       text-decoration: none;
+       color: #000000;
+   }
+
+
+.ft{
+    width: 80%;
+    float: right;
+    margin-top: 75px;
+    border-top: 2px solid red;
+    padding-top: 25px;
+
+}
+
+.ft i {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.ft i:first-child{
+    margin-left: 400px;
+}
+
+.ft p{
+    margin-left: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
 }
