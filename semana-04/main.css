@@ -1,0 +1,288 @@
+
+.second{
+    display: flex;
+    flex-direction: column;
+
+}
+  
+  .second > img{
+      
+  }
+
+  .second, .third{
+      border-bottom: 1px solid red;
+      width: 80%;
+      float: right;
+      padding-bottom: 150px;
+      
+  }
+
+  .second-c{
+      text-align: center;
+margin-top: 100px;
+  }
+
+
+   .second-c h2{
+
+      font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+  }
+
+
+
+  .third{
+ position: relative;
+ height: 250px;
+ padding-top: 50px;
+
+
+  }
+
+  
+.third .funcionalities{
+    width: 45%;
+    display: inline-block;
+    margin:10px;
+}
+
+.third .funcionalities i{
+    float: left;
+    font-size: 50px;
+
+}
+
+.third .funcionalities h3,.third .funcionalities p{
+    width: 400px;
+margin-left: 50px;
+}
+.third .funcionalities h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+}
+
+.fourth{
+    position: relative;
+ height: 500px;
+ padding-top: 50px;
+ float: right;
+ width: 80%;
+ border-bottom: 2px solid red;
+}
+
+.fourth h2 {
+    margin-top: 50px;
+    left: 80px;
+      position:absolute;
+      top: 0%;
+       font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+   .fourth > img{
+       float: right;
+       border-radius: 5px;
+       width: 40%;
+
+       
+   }
+
+   .fourth > ul {
+    margin-left: 130px;
+    top: 80px; 
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+   }
+   .fourth > ul li{
+       padding-top: 15px;
+   }
+
+   .fourth > button{
+       position: relative;
+      top: 100px;
+      left: 150px;
+       background: #FFFFFF;
+    border: 1px solid #FF5500;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    width: 139px;
+    height: 46px;
+    color: #FF5500;
+   }
+
+    .fifth{
+       position: relative;
+       height: 412px;
+       width: 80%;
+       float: right;
+
+
+   }
+
+   .fifth > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 35px;
+    
+    color: #000000;
+    margin: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    
+   }
+
+   .fifth form input{
+       display: inline-block;
+       width: 45%;
+       padding: 3px;
+       margin-top: 10px;
+       margin-left: 7px;
+
+   }
+
+   .fifth form select{
+       width: 92%;
+       margin: 10px;
+       padding: 3px;
+   }
+ 
+   .fifth form textarea{
+       width: 92%;
+       margin: 10px;
+       padding: 3px;
+       height: 210px;
+       resize: none;
+   }
+   
+   .fifth form button{
+       background-color: #FF5500;
+       color: #FFFFFF;
+       border-radius: 6px;
+       padding: 8px 15px;
+        position: relative;
+        left: 30px;
+   }
+
+   .fifth form .btn{
+       background-color: #FFFFFF;
+       color: #FF5500;
+       border: 2px solid #FF5500;
+       border-radius: 6px;
+       margin-left: 20px;
+       padding: 8px 15px;
+
+   }
+   .fifth input, .fifth area, .fifth select{
+       background-color: white;
+       border: 1px solid #AAAAAA;
+       border-radius: 5px;
+       padding: 10px;
+       
+   }
+
+   .sixth{
+      float: right;
+      width: 80%;
+      position: relative;
+      margin-top: 80px;
+      border-top: 2px solid red ;
+      border-bottom: 2px solid red;
+   }
+
+   .main .sixth > h2{
+
+    margin: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 35px;
+    color: #000000;
+
+   }
+
+   .sixth > p{
+
+    position: relative;
+    margin-left: 200px;
+    height: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+   }
+
+
+   .sixth > img{
+
+   width: 440px;
+   float: left;
+   margin-left: 20px;
+
+   }
+ 
+   .seventh{
+
+        float: right;
+        width: 80%;
+
+   }
+
+   .our-services{
+       position: relative;
+       display:inline-block;
+       width: 33%;
+       margin-top: 50px;
+       text-align: center;
+   }
+   
+   .our-services h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #000000;
+    
+   }
+
+   .our-services li{
+       list-style: none;
+
+   }
+
+   .our-services li a{
+       text-decoration: none;
+       color: #000000;
+   }
+
+@media screen and (min-width:1025px) {
+    .second{
+        flex-direction: row;
+
+        
+    }
+    
+}
+ 

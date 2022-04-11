@@ -1,0 +1,28 @@
+
+.ft{
+    width: 80%;
+    float: right;
+    margin-top: 75px;
+    border-top: 2px solid red;
+    padding-top: 25px;
+
+}
+
+.ft i {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.ft i:first-child{
+    margin-left: 400px;
+}
+
+.ft p{
+    margin-left: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
