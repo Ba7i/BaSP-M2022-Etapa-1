@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 
-}
+    }
   
   .second > img{
       
@@ -19,9 +19,8 @@
 
   .second-c{
       text-align: center;
-margin-top: 100px;
+    margin-top: 100px;
   }
-
 
    .second-c h2{
 
@@ -58,6 +57,8 @@ line-height: 30px;
 .third .funcionalities h3,.third .funcionalities p{
     width: 400px;
 margin-left: 50px;
+display: flex;
+flex-direction: column;
 }
 .third .funcionalities h3{
     font-family: 'Roboto';
@@ -71,9 +72,12 @@ line-height: 30px;
     position: relative;
  height: 500px;
  padding-top: 50px;
- float: right;
+
  width: 80%;
  border-bottom: 2px solid red;
+ display: flex;
+ flex-direction: column;
+
 }
 
 .fourth h2 {
@@ -90,10 +94,11 @@ line-height: 30px;
     }
 
    .fourth > img{
-       float: right;
+
        border-radius: 5px;
        width: 40%;
-
+display: flex;
+flex-direction: column;
        
    }
 
@@ -197,12 +202,13 @@ line-height: 30px;
    }
 
    .sixth{
-      float: right;
+      display: flex;
       width: 80%;
       position: relative;
       margin-top: 80px;
       border-top: 2px solid red ;
       border-bottom: 2px solid red;
+      flex-direction: row;
    }
 
    .main .sixth > h2{
@@ -214,20 +220,20 @@ line-height: 30px;
     font-size: 40px;
     line-height: 35px;
     color: #000000;
-
+    flex-wrap: wrap;
    }
 
    .sixth > p{
 
     position: relative;
-    margin-left: 200px;
+    
     height: 200px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-
+flex-wrap:wrap;
     color: #000000;
 
    }
@@ -236,15 +242,15 @@ line-height: 30px;
    .sixth > img{
 
    width: 440px;
-   float: left;
    margin-left: 20px;
 
    }
  
    .seventh{
 
-        float: right;
+        display: flex;
         width: 80%;
+        flex-direction: column;
 
    }
 

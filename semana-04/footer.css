@@ -5,6 +5,8 @@
     margin-top: 75px;
     border-top: 2px solid red;
     padding-top: 25px;
+    align-content: flex-end;
+    display: flex;
 
 }
 
